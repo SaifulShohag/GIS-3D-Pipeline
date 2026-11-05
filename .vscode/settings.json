@@ -1,0 +1,3 @@
+{
+    "python.analysis.extraPaths": ["./dust3r", "./TripoSR"],
+}

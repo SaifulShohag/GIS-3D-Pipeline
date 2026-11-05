@@ -1,0 +1,5211 @@
+{
+  "currentVersion" : 12, 
+  "id" : 1, 
+  "name" : "MSD_SanitaryNetwork_Points", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "a1f17c5d25f64eb4a06063b3bd9f673e", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "FACILITYID", 
+  "description" : "Metropolitan St. Louis Sewer District Sanitary Network Points", 
+  "copyrightText" : "Metropolitan St. Louis  Sewer District (MSD), St. Louis County Department of Public Works", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1780681656214, 
+    "schemaLastEditDate" : 1780681656214, 
+    "dataLastEditDate" : 1780681656214
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsColumnStoreIndex" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsReturningQueryGeometry" : true, 
+  "enableNullGeometry" : false, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsOutDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsTimeRelation" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsApproxPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : false, 
+    "supportsReturningGeometryEnvelope" : false, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated", 
+      "queryBins", 
+      "queryPivot"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsQueryPivot" : true, 
+    "supportsQueryBins" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsTranslations" : false, 
+    "supportsAggIds" : true, 
+    "supportsQueryWithCollation" : true, 
+    "supportsISODOW" : true, 
+    "supportsISOWeek" : true, 
+    "supportsFullTextSearch" : true, 
+    "fullTextSearchCapabilities" : {
+      "supportsAccentSensitivity" : true, 
+      "supportsStopWords" : true, 
+      "supportsSearchOperator" : true, 
+      "supportsOperator" : true
+    }
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsTrendlineRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "queryBinsCapabilities" : {
+    "supportsAsync" : true, 
+    "supportsAutoIntervalBin" : true, 
+    "supportsFixedIntervalBin" : true, 
+    "supportsFixedBoundariesBin" : true, 
+    "supportsDateBin" : true, 
+    "supportsClassificationBin" : true, 
+    "supportsStackBy" : true, 
+    "supportsSplitBy" : true, 
+    "supportsFirstDayOfWeek" : true, 
+    "supportsSnapToData" : true, 
+    "supportsReturnFullIntervalBin" : true, 
+    "supportsReturnStackValueRange" : true, 
+    "supportsNormalization" : true, 
+    "supportedStatisticTypes" : [
+      "COUNT", 
+      "SUM", 
+      "AVG", 
+      "VAR", 
+      "STDDEV", 
+      "MIN", 
+      "MAX", 
+      "PERCENTILE_CONT", 
+      "PERCENTILE_DISC", 
+      "APPROX_PERCENTILE_CONT", 
+      "APPROX_PERCENTILE_DISC", 
+      "CentroidAggregate", 
+      "EnvelopeAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportedNormalizationTypes" : [
+      "boxCox", 
+      "field", 
+      "inverse", 
+      "log", 
+      "naturalLog", 
+      "percentOfTotal", 
+      "squareRoot"
+    ]
+  }, 
+  "supportedOperationsWithCollation" : "query,addField,updateField", 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON,PBF", 
+    "supportsTranslation" : false, 
+    "supportsMaxTranslations" : 10
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPoint", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : 771232.892565079, 
+    "ymin" : 931747.82095615566, 
+    "xmax" : 911443.085241247, 
+    "ymax" : 1105448.7494722381, 
+    "spatialReference" : {
+      "wkid" : 102696, 
+      "latestWkid" : 102696
+    }
+  }, 
+  "spatialReference" : {
+    "wkid" : 102696, 
+    "latestWkid" : 102696
+  }, 
+  "drawingInfo":{"renderer":{"type":"uniqueValue","field1":"SUBTYPE","defaultSymbol":{"type":"esriSMS","style":"esriSMSCircle","color":[130,130,130,255],"size":6,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[255,255,255,255],"width":0.75}},"defaultLabel":"<all other values>","uniqueValueGroups":[{"heading":"SUBTYPE","classes":[{"label":"Line Manhole","description":"Line Manhole","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[142,237,121,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["1"]]},{"label":"Drop Manhole","description":"Drop Manhole","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[159,181,145,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["2"]]},{"label":"Terminal Manhole","description":"Terminal Manhole","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[91,242,53,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["3"]]},{"label":"Flex Valve Manhole","description":"Flex Valve Manhole","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[97,168,91,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["4"]]},{"label":"Break Over","description":"Break Over","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[206,247,181,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["5"]]},{"label":"Constructed SSO","description":"Constructed SSO","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[54,171,36,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["6"]]},{"label":"Force Main Discharge","description":"Force Main Discharge","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[111,217,59,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["7"]]},{"label":"Slotted","description":"Slotted","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[150,217,143,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["9"]]},{"label":"Detention Access","description":"Detention Access","symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[169,212,161,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"values":[["10"]]}]}],"uniqueValueInfos":[{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[142,237,121,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"1","label":"Line Manhole"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[159,181,145,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"2","label":"Drop Manhole"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[91,242,53,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"3","label":"Terminal Manhole"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[97,168,91,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"4","label":"Flex Valve Manhole"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[206,247,181,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"5","label":"Break Over"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[54,171,36,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"6","label":"Constructed SSO"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[111,217,59,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"7","label":"Force Main Discharge"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[150,217,143,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"9","label":"Slotted"},{"symbol":{"type":"esriSMS","style":"esriSMSCircle","color":[169,212,161,255],"size":4,"angle":0,"xoffset":0,"yoffset":0,"outline":{"color":[0,0,0,255],"width":0.7}},"value":"10","label":"Detention Access"}],"fieldDelimiter":",","authoringInfo":{"colorRamp":{"type":"multipart","colorRamps":[{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[84,194,62,255],"toColor":[84,194,62,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[149,171,137,255],"toColor":[149,171,137,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[181,250,162,255],"toColor":[181,250,162,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[83,247,54,255],"toColor":[83,247,54,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[109,166,85,255],"toColor":[109,166,85,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[166,250,110,255],"toColor":[166,250,110,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[183,222,169,255],"toColor":[183,222,169,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[130,201,99,255],"toColor":[130,201,99,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[106,245,93,255],"toColor":[106,245,93,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[144,201,131,255],"toColor":[144,201,131,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[126,227,68,255],"toColor":[126,227,68,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[145,235,129,255],"toColor":[145,235,129,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[74,171,63,255],"toColor":[74,171,63,255]}]}}},"scaleSymbols":true,"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasMetadata" : true, 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "SUBTYPE", 
+  "collation" : {
+    "locale" : "neutral", 
+    "caseSensitive" : false, 
+    "accentSensitive" : true
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "FACILITYID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "FACILITYID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ENABLED", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "ENABLED", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "EnabledDomain", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "codedValues" : [
+          {
+            "name" : "False", 
+            "code" : 0
+          }, 
+          {
+            "name" : "True", 
+            "code" : 1
+          }
+        ]
+      }, 
+      "defaultValue" : 1
+    }, 
+    {
+      "name" : "SUBTYPE", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "Subtype", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 1
+    }, 
+    {
+      "name" : "SYSTEM", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "System", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 2, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainSystem", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDuplicate", 
+        "codedValues" : [
+          {
+            "name" : "Sanitary sewer", 
+            "code" : "S"
+          }, 
+          {
+            "name" : "Storm sewer", 
+            "code" : "D"
+          }, 
+          {
+            "name" : "Combined sewer", 
+            "code" : "C"
+          }
+        ]
+      }, 
+      "defaultValue" : "S"
+    }, 
+    {
+      "name" : "TOPELEVATION", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "TopElevation", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INVERTELEVATION", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InvertElevation", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP1", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop1", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP2", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop2", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP3", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop3", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP4", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop4", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP5", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop5", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "INTERIORDROP6", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "InteriorDrop6", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 0
+    }, 
+    {
+      "name" : "OWNERSHIP", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Ownership", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainOwnership_1", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDuplicate", 
+        "codedValues" : [
+          {
+            "name" : "MSD", 
+            "code" : "1"
+          }, 
+          {
+            "name" : "Private", 
+            "code" : "2"
+          }, 
+          {
+            "name" : "County", 
+            "code" : "3"
+          }, 
+          {
+            "name" : "City", 
+            "code" : "4"
+          }, 
+          {
+            "name" : "MODOT", 
+            "code" : "5"
+          }, 
+          {
+            "name" : "Dedication-Transitional", 
+            "code" : "6"
+          }, 
+          {
+            "name" : "Unknown Owner", 
+            "code" : "7"
+          }, 
+          {
+            "name" : "Private - Under MSD Inspection", 
+            "code" : "8"
+          }, 
+          {
+            "name" : "Northeast Sewer District", 
+            "code" : "9"
+          }, 
+          {
+            "name" : "Municipal", 
+            "code" : "10"
+          }, 
+          {
+            "name" : "Levee District", 
+            "code" : "11"
+          }
+        ]
+      }, 
+      "defaultValue" : "1"
+    }, 
+    {
+      "name" : "HAZARDTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "HazardType", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainHazardType", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDuplicate", 
+        "codedValues" : [
+          {
+            "name" : "NONE", 
+            "code" : "1"
+          }, 
+          {
+            "name" : "Explosive", 
+            "code" : "5"
+          }, 
+          {
+            "name" : "Radioactive", 
+            "code" : "6"
+          }, 
+          {
+            "name" : "Undetermined", 
+            "code" : "7"
+          }, 
+          {
+            "name" : "Thermal", 
+            "code" : "3"
+          }, 
+          {
+            "name" : "Flammable", 
+            "code" : "4"
+          }, 
+          {
+            "name" : "Breathing Atmosphere", 
+            "code" : "8"
+          }, 
+          {
+            "name" : "Corrosive", 
+            "code" : "9"
+          }, 
+          {
+            "name" : "Chemical/Toxic", 
+            "code" : "2"
+          }, 
+          {
+            "name" : "H2S", 
+            "code" : "10"
+          }, 
+          {
+            "name" : "Multi-Hazard (see plan)", 
+            "code" : "11"
+          }
+        ]
+      }, 
+      "defaultValue" : "1"
+    }, 
+    {
+      "name" : "OPID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "OPID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MAPDATE", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "MAPDATE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null, 
+      "precision" : 1
+    }, 
+    {
+      "name" : "SYMBOLROTATION", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "SYMBOLROTATION", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "PJOBID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "PJOBID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MSLINK", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "MSLINK", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GPS_X", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "GPS_X", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "range", 
+        "name" : "DomainEasting", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "description" : "Valid MSPCSE X Values", 
+        "range" : [
+          747600, 
+          927675
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GPS_Y", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "GPS_Y", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "range", 
+        "name" : "DomainNorthing", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDuplicate", 
+        "description" : "Valid MSPCSE Y Values", 
+        "range" : [
+          930040, 
+          1115040
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "GPS_Z", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "GPS_Z", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ALTID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ALTID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "INSERVICEDATE", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "INSERVICEDATE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null, 
+      "precision" : 1
+    }, 
+    {
+      "name" : "COMBINEDID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "COMBINEDID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "REHABDATE", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "REHABDATE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null, 
+      "precision" : 1
+    }, 
+    {
+      "name" : "REHABTYPE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "REHABTYPE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainMHRehabType", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "codedValues" : [
+          {
+            "name" : "Polyethylene Foam", 
+            "code" : "PLYFM"
+          }, 
+          {
+            "name" : "Acid Resistant Mortar Liner", 
+            "code" : "ARML"
+          }, 
+          {
+            "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+            "code" : "ARMLAA"
+          }, 
+          {
+            "name" : "Mortar Liner", 
+            "code" : "ML"
+          }, 
+          {
+            "name" : "Epoxy Coating", 
+            "code" : "EPOXY"
+          }, 
+          {
+            "name" : "Mortar Liner with Antimicrobial Additive", 
+            "code" : "MLAA"
+          }, 
+          {
+            "name" : "Three-layered Fiberglass & Epoxy", 
+            "code" : "PLY3FE"
+          }, 
+          {
+            "name" : "Unknown", 
+            "code" : "UNK"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MXCREATIONSTATE", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "MXCREATIONSTATE", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : 1
+    }, 
+    {
+      "name" : "MXSITEID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "MXSITEID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : "CS"
+    }, 
+    {
+      "name" : "MXASSETNUM", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "MXASSETNUM", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 30, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "MXASSETLOC", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "MXASSETLOC", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 40, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "STATUS", 
+      "type" : "esriFieldTypeSmallInteger", 
+      "alias" : "STATUS", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainAssetStatus", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "codedValues" : [
+          {
+            "name" : "Active", 
+            "code" : 1
+          }, 
+          {
+            "name" : "Abandoned", 
+            "code" : 2
+          }, 
+          {
+            "name" : "Removed", 
+            "code" : 3
+          }, 
+          {
+            "name" : "Consolidated", 
+            "code" : 4
+          }, 
+          {
+            "name" : "Design", 
+            "code" : 5
+          }, 
+          {
+            "name" : "Operating", 
+            "code" : 6
+          }, 
+          {
+            "name" : "To Be Removed", 
+            "code" : 7
+          }, 
+          {
+            "name" : "Inactive", 
+            "code" : 8
+          }
+        ]
+      }, 
+      "defaultValue" : 1
+    }, 
+    {
+      "name" : "ROWSTAMP", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ROWSTAMP", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : "0"
+    }, 
+    {
+      "name" : "WALLMATERIAL", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "WALLMATERIAL", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainWallMaterial", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDuplicate", 
+        "codedValues" : [
+          {
+            "name" : "Brick", 
+            "code" : "BRK"
+          }, 
+          {
+            "name" : "Clay Block", 
+            "code" : "CBK"
+          }, 
+          {
+            "name" : "Manhole Block", 
+            "code" : "MBK"
+          }, 
+          {
+            "name" : "Polyethylene", 
+            "code" : "POL"
+          }, 
+          {
+            "name" : "Precast Concrete", 
+            "code" : "PRC"
+          }, 
+          {
+            "name" : "Unknown", 
+            "code" : "UNK"
+          }, 
+          {
+            "name" : "Corrugated Metal", 
+            "code" : "CMP"
+          }, 
+          {
+            "name" : "Fibercast", 
+            "code" : "FIB"
+          }, 
+          {
+            "name" : "Poured In Place Concrete", 
+            "code" : "CON"
+          }
+        ]
+      }, 
+      "defaultValue" : "PRC"
+    }, 
+    {
+      "name" : "LAST_MODIFIED_BY", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "LAST_MODIFIED_BY", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "LAST_MODIFIED_DATE", 
+      "type" : "esriFieldTypeDate", 
+      "alias" : "LAST_MODIFIED_DATE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 8, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null, 
+      "precision" : 1
+    }, 
+    {
+      "name" : "SOURCE", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "SOURCE", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainSourceQual", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "description" : "indicates map accuracy", 
+        "codedValues" : [
+          {
+            "name" : "Survey grade \u003c 1 ft", 
+            "code" : "Survey"
+          }, 
+          {
+            "name" : "Mapping grade \u003c 3 ft", 
+            "code" : "Mapping"
+          }, 
+          {
+            "name" : "Relative to aerial photo", 
+            "code" : "Aerial"
+          }, 
+          {
+            "name" : "Archival / Stretched", 
+            "code" : "Archival"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "LAST_JOBID", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "LAST_JOBID", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ROWLOC", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ROWLOC", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainLocation", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "codedValues" : [
+          {
+            "name" : "Front", 
+            "code" : "F"
+          }, 
+          {
+            "name" : "Rear", 
+            "code" : "R"
+          }, 
+          {
+            "name" : "Undetermined", 
+            "code" : "U"
+          }
+        ]
+      }, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "HAZARD_ENTRY", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "HAZARD_ENTRY", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "DomainHaz_Entry", 
+        "mergePolicy" : "esriMPTDefaultValue", 
+        "splitPolicy" : "esriSPTDefaultValue", 
+        "codedValues" : [
+          {
+            "name" : "None", 
+            "code" : "0"
+          }, 
+          {
+            "name" : "Caution", 
+            "code" : "1"
+          }, 
+          {
+            "name" : "Do Not Enter", 
+            "code" : "2"
+          }, 
+          {
+            "name" : "Radioactive", 
+            "code" : "3"
+          }
+        ]
+      }, 
+      "defaultValue" : "0"
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__MSD_INFR__F4B70D85AB8C0E62", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_17665.MSD_INFRASTRUCTURE_COMPLETE_MSD_SANITARYNETWORK_POINTS_Shape_sidx", 
+      "fields" : "SHAPE", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "timeZoneIANA" : "Etc/UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [
+    {
+      "id" : 1, 
+      "name" : "Line Manhole", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Line Manhole", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 1, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 2, 
+      "name" : "Drop Manhole", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Drop Manhole", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 2, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 3, 
+      "name" : "Terminal Manhole", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Terminal Manhole", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 3, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 4, 
+      "name" : "Flex Valve Manhole", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Flex Valve Manhole", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 4, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 5, 
+      "name" : "Break Over", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Break Over", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 5, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 6, 
+      "name" : "Constructed SSO", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Constructed SSO", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 6, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 7, 
+      "name" : "Force Main Discharge", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Force Main Discharge", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 7, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 9, 
+      "name" : "Slotted", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Slotted", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 9, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : 10, 
+      "name" : "Detention Access", 
+      "domains" : 
+      {
+        "ENABLED" : {"type" : "inherited"}, 
+        "SYSTEM" : {"type" : "inherited"}, 
+        "OWNERSHIP" : {"type" : "inherited"}, 
+        "HAZARDTYPE" : {"type" : "inherited"}, 
+        "GPS_X" : {"type" : "inherited"}, 
+        "GPS_Y" : {"type" : "inherited"}, 
+        "REHABTYPE" : {"type" : "inherited"}, 
+        "STATUS" : {"type" : "inherited"}, 
+        "WALLMATERIAL" : {"type" : "inherited"}, 
+        "SOURCE" : {"type" : "inherited"}, 
+        "ROWLOC" : {"type" : "inherited"}, 
+        "HAZARD_ENTRY" : {"type" : "inherited"}
+      }, 
+      "templates" : [
+        {
+          "name" : "Detention Access", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "ROWLOC" : "U", 
+              "HAZARD_ENTRY" : "0", 
+              "FACILITYID" : null, 
+              "ENABLED" : 1, 
+              "SUBTYPE" : 10, 
+              "SYSTEM" : "S", 
+              "TOPELEVATION" : 0, 
+              "INVERTELEVATION" : 0, 
+              "INTERIORDROP1" : 0, 
+              "INTERIORDROP2" : 0, 
+              "INTERIORDROP3" : 0, 
+              "INTERIORDROP4" : 0, 
+              "INTERIORDROP5" : 0, 
+              "INTERIORDROP6" : 0, 
+              "OWNERSHIP" : "1", 
+              "HAZARDTYPE" : "1", 
+              "OPID" : null, 
+              "MAPDATE" : null, 
+              "SYMBOLROTATION" : null, 
+              "PJOBID" : null, 
+              "MSLINK" : null, 
+              "GPS_X" : null, 
+              "GPS_Y" : null, 
+              "GPS_Z" : null, 
+              "ALTID" : null, 
+              "INSERVICEDATE" : null, 
+              "COMBINEDID" : null, 
+              "REHABDATE" : null, 
+              "REHABTYPE" : null, 
+              "MXCREATIONSTATE" : 1, 
+              "MXSITEID" : "CS", 
+              "MXASSETNUM" : null, 
+              "MXASSETLOC" : null, 
+              "STATUS" : 1, 
+              "ROWSTAMP" : "0", 
+              "WALLMATERIAL" : "PRC", 
+              "LAST_MODIFIED_BY" : null, 
+              "LAST_MODIFIED_DATE" : null, 
+              "SOURCE" : null, 
+              "LAST_JOBID" : null
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf", 
+  "supportedAppendSourceFilterFormats" : "sqlite,geoPackage,shapefile,filegdb,featureService", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet", 
+  "supportedConvertFileFormats" : "JSON,PBF,Parquet", 
+  "supportedConvertContentFormats" : "LayerEditCollection,FeatureCollection", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "guidFormat" : "", 
+  "supportsContingentValues" : true, 
+  "supportsEditingContingentValues" : true, 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportsFieldGroups" : true, 
+  "supportedSyncDataOptions" : 260, 
+  "hasStaticData" : false, 
+  "maxRecordCount" : 2000, 
+  "standardMaxRecordCount" : 16000, 
+  "maxIdsCount" : 1000000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 8000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query", 
+  
+  "subtypeField" : "SUBTYPE", 
+  "defaultSubtypeCode" : 1, 
+  "subtypes" : [
+    {
+      "code" : 1, 
+      "name" : "Line Manhole", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 2, 
+      "name" : "Drop Manhole", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 3, 
+      "name" : "Terminal Manhole", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 4, 
+      "name" : "Flex Valve Manhole", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 5, 
+      "name" : "Break Over", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 6, 
+      "name" : "Constructed SSO", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 7, 
+      "name" : "Force Main Discharge", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 10, 
+      "name" : "Detention Access", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 1, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "code" : 9, 
+      "name" : "Slotted", 
+      "defaultValues" : {
+        "FACILITYID" : null, 
+        "ENABLED" : 1, 
+        "SUBTYPE" : 9, 
+        "SYSTEM" : "S", 
+        "TOPELEVATION" : 0, 
+        "INVERTELEVATION" : 0, 
+        "INTERIORDROP1" : 0, 
+        "INTERIORDROP2" : 0, 
+        "INTERIORDROP3" : 0, 
+        "INTERIORDROP4" : 0, 
+        "INTERIORDROP5" : 0, 
+        "INTERIORDROP6" : 0, 
+        "OWNERSHIP" : "1", 
+        "HAZARDTYPE" : "1", 
+        "OPID" : null, 
+        "MAPDATE" : null, 
+        "SYMBOLROTATION" : null, 
+        "PJOBID" : null, 
+        "MSLINK" : null, 
+        "GPS_X" : null, 
+        "GPS_Y" : null, 
+        "GPS_Z" : null, 
+        "ALTID" : null, 
+        "INSERVICEDATE" : null, 
+        "COMBINEDID" : null, 
+        "REHABDATE" : null, 
+        "REHABTYPE" : null, 
+        "MXCREATIONSTATE" : 1, 
+        "MXSITEID" : "CS", 
+        "MXASSETNUM" : null, 
+        "MXASSETLOC" : null, 
+        "STATUS" : 1, 
+        "ROWSTAMP" : "0", 
+        "WALLMATERIAL" : "PRC", 
+        "LAST_MODIFIED_BY" : null, 
+        "LAST_MODIFIED_DATE" : null, 
+        "SOURCE" : null, 
+        "LAST_JOBID" : null, 
+        "ROWLOC" : "U", 
+        "HAZARD_ENTRY" : "0"
+      }, 
+      "domains" : {
+        "ENABLED" : 
+        {
+          "type" : "codedValue", 
+          "name" : "EnabledDomain", 
+          "codedValues" : [
+            {
+              "name" : "False", 
+              "code" : 0
+            }, 
+            {
+              "name" : "True", 
+              "code" : 1
+            }
+          ]
+        }, 
+        "SYSTEM" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSystem", 
+          "codedValues" : [
+            {
+              "name" : "Sanitary sewer", 
+              "code" : "S"
+            }, 
+            {
+              "name" : "Storm sewer", 
+              "code" : "D"
+            }, 
+            {
+              "name" : "Combined sewer", 
+              "code" : "C"
+            }
+          ]
+        }, 
+        "OWNERSHIP" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainOwnership_1", 
+          "codedValues" : [
+            {
+              "name" : "MSD", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Private", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "County", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "City", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "MODOT", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Dedication-Transitional", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Unknown Owner", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Private - Under MSD Inspection", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Northeast Sewer District", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Municipal", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Levee District", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "HAZARDTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHazardType", 
+          "codedValues" : [
+            {
+              "name" : "NONE", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Explosive", 
+              "code" : "5"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "6"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "7"
+            }, 
+            {
+              "name" : "Thermal", 
+              "code" : "3"
+            }, 
+            {
+              "name" : "Flammable", 
+              "code" : "4"
+            }, 
+            {
+              "name" : "Breathing Atmosphere", 
+              "code" : "8"
+            }, 
+            {
+              "name" : "Corrosive", 
+              "code" : "9"
+            }, 
+            {
+              "name" : "Chemical/Toxic", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "H2S", 
+              "code" : "10"
+            }, 
+            {
+              "name" : "Multi-Hazard (see plan)", 
+              "code" : "11"
+            }
+          ]
+        }, 
+        "GPS_X" : 
+        {
+          "type" : "range", 
+          "name" : "DomainEasting", 
+          "description" : "Valid MSPCSE X Values", 
+          "range" : [
+            747600, 
+            927675
+          ]
+        }, 
+        "GPS_Y" : 
+        {
+          "type" : "range", 
+          "name" : "DomainNorthing", 
+          "description" : "Valid MSPCSE Y Values", 
+          "range" : [
+            930040, 
+            1115040
+          ]
+        }, 
+        "REHABTYPE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainMHRehabType", 
+          "codedValues" : [
+            {
+              "name" : "Polyethylene Foam", 
+              "code" : "PLYFM"
+            }, 
+            {
+              "name" : "Acid Resistant Mortar Liner", 
+              "code" : "ARML"
+            }, 
+            {
+              "name" : "Acid Restistant Mortar Liner with Antimicrobial Additive", 
+              "code" : "ARMLAA"
+            }, 
+            {
+              "name" : "Mortar Liner", 
+              "code" : "ML"
+            }, 
+            {
+              "name" : "Epoxy Coating", 
+              "code" : "EPOXY"
+            }, 
+            {
+              "name" : "Mortar Liner with Antimicrobial Additive", 
+              "code" : "MLAA"
+            }, 
+            {
+              "name" : "Three-layered Fiberglass & Epoxy", 
+              "code" : "PLY3FE"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }
+          ]
+        }, 
+        "STATUS" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainAssetStatus", 
+          "codedValues" : [
+            {
+              "name" : "Active", 
+              "code" : 1
+            }, 
+            {
+              "name" : "Abandoned", 
+              "code" : 2
+            }, 
+            {
+              "name" : "Removed", 
+              "code" : 3
+            }, 
+            {
+              "name" : "Consolidated", 
+              "code" : 4
+            }, 
+            {
+              "name" : "Design", 
+              "code" : 5
+            }, 
+            {
+              "name" : "Operating", 
+              "code" : 6
+            }, 
+            {
+              "name" : "To Be Removed", 
+              "code" : 7
+            }, 
+            {
+              "name" : "Inactive", 
+              "code" : 8
+            }
+          ]
+        }, 
+        "WALLMATERIAL" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainWallMaterial", 
+          "codedValues" : [
+            {
+              "name" : "Brick", 
+              "code" : "BRK"
+            }, 
+            {
+              "name" : "Clay Block", 
+              "code" : "CBK"
+            }, 
+            {
+              "name" : "Manhole Block", 
+              "code" : "MBK"
+            }, 
+            {
+              "name" : "Polyethylene", 
+              "code" : "POL"
+            }, 
+            {
+              "name" : "Precast Concrete", 
+              "code" : "PRC"
+            }, 
+            {
+              "name" : "Unknown", 
+              "code" : "UNK"
+            }, 
+            {
+              "name" : "Corrugated Metal", 
+              "code" : "CMP"
+            }, 
+            {
+              "name" : "Fibercast", 
+              "code" : "FIB"
+            }, 
+            {
+              "name" : "Poured In Place Concrete", 
+              "code" : "CON"
+            }
+          ]
+        }, 
+        "SOURCE" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainSourceQual", 
+          "description" : "indicates map accuracy", 
+          "codedValues" : [
+            {
+              "name" : "Survey grade \u003c 1 ft", 
+              "code" : "Survey"
+            }, 
+            {
+              "name" : "Mapping grade \u003c 3 ft", 
+              "code" : "Mapping"
+            }, 
+            {
+              "name" : "Relative to aerial photo", 
+              "code" : "Aerial"
+            }, 
+            {
+              "name" : "Archival / Stretched", 
+              "code" : "Archival"
+            }
+          ]
+        }, 
+        "ROWLOC" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainLocation", 
+          "codedValues" : [
+            {
+              "name" : "Front", 
+              "code" : "F"
+            }, 
+            {
+              "name" : "Rear", 
+              "code" : "R"
+            }, 
+            {
+              "name" : "Undetermined", 
+              "code" : "U"
+            }
+          ]
+        }, 
+        "HAZARD_ENTRY" : 
+        {
+          "type" : "codedValue", 
+          "name" : "DomainHaz_Entry", 
+          "codedValues" : [
+            {
+              "name" : "None", 
+              "code" : "0"
+            }, 
+            {
+              "name" : "Caution", 
+              "code" : "1"
+            }, 
+            {
+              "name" : "Do Not Enter", 
+              "code" : "2"
+            }, 
+            {
+              "name" : "Radioactive", 
+              "code" : "3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
